@@ -1,0 +1,37 @@
+/*STYLING FOR PORTFOLIO WEBSITE*/
+body {
+	font-family: 'Source Code Pro', monospace;
+	color: steelblue;
+	font-weight: 300;
+}
+
+hr {
+	border: 1.5px solid #BCBBBB;
+}
+
+@media (max-width: 768px;) {
+	.heading {
+		text-align: center;
+	}
+}
+
+
+.text-muted {
+	color: #BCBBBB;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.text-enlarge {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+.text-padding {
+	padding-bottom: 25px;
+}
