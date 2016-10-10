@@ -12,7 +12,7 @@ html {
 
 /*changing body attributes*/
 body {
-	font-family: 'Source Code Pro', monospace;
+	font-family: "Source Code Pro", monospace;
 	color: black;
 	font-weight: 300;
 	background: url("../img/background-image.jpg")  no-repeat center center fixed;
@@ -37,12 +37,6 @@ hr {
 	}
 }
 
-/*class to apply a background color for main image*/
-
-/*.background {
-	background-color: ;
-}
-*/
 /*class to apply to change color of select texts*/
 
 .text-standout {
