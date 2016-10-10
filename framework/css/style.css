@@ -1,13 +1,35 @@
 /*STYLING FOR PORTFOLIO WEBSITE*/
-body {
-	font-family: 'Source Code Pro', monospace;
-	color: steelblue;
-	font-weight: 300;
+
+/*apply background image to the website*/
+
+html {
+	background: url("../img/background-image.png")  no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
-hr {
-	border: 1.5px solid #BCBBBB;
+/*changing body attributes*/
+body {
+	font-family: 'Source Code Pro', monospace;
+	color: black;
+	font-weight: 500;
+	background: url("../img/background-image.jpg")  no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
+}
+
+/*adjust the size and color of horizontal rule*/
+
+hr {
+	border: 1.5px solid black;
+}
+
+/*media query to change text alignment for small screen size*/
 
 @media (max-width: 768px;) {
 	.heading {
@@ -15,22 +37,37 @@ hr {
 	}
 }
 
+/*class to apply a background color for main image*/
 
-.text-muted {
-	color: #BCBBBB;
+/*.background {
+	background-color: ;
 }
+*/
+/*class to apply to change color of select texts*/
+
+.text-standout {
+	font-weight: bold;
+}
+
+/*class to apply to change texts thickness*/
 
 .text-thin {
 	font-weight: 100;
 }
 
+/*class to apply to increase text size*/
+
 .text-enlarge {
 	font-size: 60px;
 }
 
+/*class to change logo padding*/
+
 .title-logo {
 	margin-top: 20px;
 }
+
+/*class to increase padding*/
 
 .text-padding {
 	padding-bottom: 25px;
